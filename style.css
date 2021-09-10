@@ -18,8 +18,11 @@ body{
     position: sticky;
     top: 0;
     z-index: 10;
+    
 }
-
+ .navbar{
+    background-color: rgb(242, 251, 255) !important;
+} 
 .navbar-brand img{
     height: 40px;
     padding-left: 30px;
@@ -71,8 +74,8 @@ body{
 
 /* about */
 
-.about-section h3{
-    font-size: 38px;
+#about h3{
+    font-size: 40px;
 }
 
 .about-section p{
@@ -106,18 +109,20 @@ body{
 }
 
 /* course section */
-.courses-section h3{
-    font-size: 38px;
+#courses h3{
+    font-size: 40px;
 }
+
 
 
 
 .courses-section{
     background-color: rgb(230, 234, 236);
 }
+/* gallery-section */
 
-.gallery-section h3{
-    font-size: 38px;
+#gallery h3{
+    font-size: 40px;
 }
 .gallery-section h4{
     font-size: 16px;
@@ -140,30 +145,35 @@ body{
 }
 .col-md-4{
     margin: 40px auto;
+    
+    
 }
 
 .profile{
     padding: 70px 10px 10px;
     background-color: #efefef;
+    
+    
 }
 .user{
     width: 120px;
     height: 120px;
     border-radius: 50%;
 }
-.profile img{
+  .profile img{
     top: -60px;
     position: absolute;
     left: calc(50% - 60px);
-    border: 10px solid #fff;
-}
-.profile h3{
-    font-size: 20px;
+    border: 10px solid #fff; 
+} 
+.profile h4{
+    font-size: 22px;
     margin-top: 15px;
-    color: #007bff;
+    color: #007bff; 
+
 }
 #testimonials span{
-    font-size: 12px;
+    font-size: 16px;
     color: #333;
 }
 blockquote{
@@ -208,7 +218,7 @@ blockquote::after{
 }
 
 #contact h3{
-    font-size: 38px;
+    font-size: 40px;
 
 }
 .contact-box .formcontrol{
@@ -248,7 +258,7 @@ blockquote::after{
     padding: 20px;
 } 
 #footer p{
-    font-size: 0.5em;
+    font-size: 0.9em;
 }
 
 
@@ -257,6 +267,10 @@ blockquote::after{
   @media(max-width:600px){
     #home .carousel-caption h5 {
         font-size: 22px;
+    }
+
+    .navbar-brand img{
+        padding-left: 20px;
     }
 } 
 
