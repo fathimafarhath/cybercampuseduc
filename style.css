@@ -62,7 +62,7 @@ body{
 }
 .carousel-caption h5{
     color:#fff;
-    font-size: 42px;
+    font-size: 40px;
 }
 .carousel-inner img{
     height: 700px;
@@ -249,11 +249,11 @@ blockquote::after{
 
 
 
- /* @media(max-width:600px){
-    #focus-slider .carousel-caption h2 {
-        font-size: 30px;
+  @media(max-width:600px){
+    #home .carousel-caption h5 {
+        font-size: 22px;
     }
-} */
+} 
 
 /* @media(max-width:767px){
     .header-section .navbar-brand img{
