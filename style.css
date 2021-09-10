@@ -110,6 +110,8 @@ body{
     font-size: 38px;
 }
 
+
+
 .courses-section{
     background-color: rgb(230, 234, 236);
 }
@@ -245,6 +247,9 @@ blockquote::after{
     color: #fff;
     padding: 20px;
 } 
+#footer p{
+    font-size: 0.5em;
+}
 
 
 
