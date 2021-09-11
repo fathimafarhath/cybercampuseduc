@@ -268,7 +268,7 @@ blockquote::after{
 
 @media(max-width:1210px){
     .card-subtitle{
-        font-size: 10px;
+        font-size: 28px;
     }
 }
 
@@ -279,7 +279,7 @@ blockquote::after{
     }
 
     .navbar-brand img{
-        padding-left: 15px;
+        padding-left: 1px;
     }
 } 
 
