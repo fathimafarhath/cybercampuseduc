@@ -277,6 +277,7 @@ blockquote::after{
   @media(max-width:600px){
     #home .carousel-caption h5 {
         font-size: 22px;
+        color: rgb(8, 8, 8);
     }
 
     .navbar-brand img{
