@@ -98,6 +98,11 @@ body{
     display:block;
     transform: translateY(8px);
 }
+.button{
+    margin: 0;
+    
+    text-align: center;
+}
 
 
 /* footer */
