@@ -57,6 +57,10 @@ body{
 
 /* form */
 
+.form-select{
+    height: 35px;
+}
+
 #course{
     background-color: rgb(230, 234, 236);
 }
