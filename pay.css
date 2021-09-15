@@ -45,6 +45,9 @@
     height: 60%;
     
 }
+.table-data{
+    font-size: 16px;
+} 
 
 .table .tvalue{
     /* position: relative; */
