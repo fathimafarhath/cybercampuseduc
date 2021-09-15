@@ -41,13 +41,14 @@
   }
 .table{
     background-color: rgb(230, 234, 236);
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 60%;
     
 }
 
 .table .tvalue{
-    width: 300px;
+    /* position: relative; */
+    width: 600px;
 }
 
 .table-bordered{
@@ -68,3 +69,4 @@
     margin-right: 30px;
 }
 
+@media(max-width:)
