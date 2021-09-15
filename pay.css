@@ -40,8 +40,9 @@
     height: 70px;
   }
 .table{
-    background-color: rgb(230, 234, 236);
-    width: 80%;
+    background-color: #f7f7f7;
+    /* background-color: rgb(230, 234, 236); */
+    /* width: 80%; */
     height: 60%;
     
 }
@@ -49,13 +50,16 @@
     font-size: 16px;
 } 
 
+.table .tdata{
+    width: 30%;
+}
 .table .tvalue{
     /* position: relative; */
     width: 600px;
 }
 
 .table-bordered{
-    border:3px solid rgb(174, 172, 172) !important;
+    border:2px solid rgb(174, 172, 172) !important;
     
 }
 
@@ -72,4 +76,21 @@
     margin-right: 30px;
 }
 
-@media(max-width:)
+
+/* @media (min-width:801px){
+    .table{
+        width: 40%;
+    }
+} */
+
+@media (min-width:320px){
+    .table{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .table{
+        width: 50%;
+    }
+}
