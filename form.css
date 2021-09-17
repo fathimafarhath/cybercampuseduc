@@ -133,6 +133,12 @@ body{
 
 
 /* 3 PAGES */
+
+#main-content{
+    background-color: rgb(230, 234, 236);
+    
+}
+
 #main-content h1{
     padding-top: 50px;
     font-size: 40px;
@@ -145,7 +151,8 @@ body{
 .row{
     
     text-align: center;
-    background-color: rgb(230, 234, 236);
+    background-color:white;
+    border:3px solid rgb(198, 191, 191);
     /* background-color: #f8f9fa!important; */
     /* background-color: rgb(230, 234, 236);
 */
