@@ -112,6 +112,8 @@ body{
     font-size: 0.9em;
 }
 
+
+
 @media(max-width:600px){
     .navbar-brand img{
         padding-left: 1px;
