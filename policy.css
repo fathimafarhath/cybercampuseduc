@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -8,9 +9,8 @@ html{
 
 body{
     font-family: 'Fira Sans', sans-serif;
+    
 }
-
-
 
 /* navigation */
 
@@ -55,27 +55,24 @@ body{
 }
 
 
-/* form */
-
-.form-select{
-    height: 35px;
-}
-
-#course{
+#main-content{
     background-color: rgb(230, 234, 236);
+    
 }
 
-#course h1{
+#main-content h1{
     padding-top: 50px;
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 600;
+
 }
 
-.border-1 {
-    
-    border-width:5px !important;
+.container h4{
+    font-size: 20px;
+    font-weight: 400;
 }
+
 
 
 .title::before
@@ -102,16 +99,11 @@ body{
     display:block;
     transform: translateY(8px);
 }
-.button{
-    margin: 0;
-    
-    text-align: center;
-}
 
 
-/* footer */
+ 
 
-#footer{
+ #footer{
     background: rgb(12, 12, 12);
     color: #fff;
     padding: 20px;
@@ -121,14 +113,39 @@ body{
 }
 
 
-@media(max-width:600px){
-    .navbar-brand img{
-        padding-left: 1px;
+
+@media(max-width:444px){
+    #main-content h1{
+        font-size: 28px;
+    }
+
+    .title::before
+    {
+    content: '';
+    background: #eb0e50;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    transform: translateY(50px);
     }
 
 
-}
+
+    .title::after
+    {
+        content: '';
+        background: #eb0e50;
+        height: 10px;
+        width: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        display:block;
+        transform: translateY(8px);
 
 
+    }
 
-
+}  
