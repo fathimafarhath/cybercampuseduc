@@ -105,7 +105,7 @@ body{
         margin-bottom: 0rem;
     }
 
-    ul {
+    ol {
         margin-top: 0;
         margin-bottom: 0rem;
     }
@@ -121,6 +121,10 @@ body{
 } 
 #footer p{
     font-size: 0.9em;
+}
+.poweredby a:active {
+    text-decoration: none;
+    color: #b9dbff;
 }
 
 
